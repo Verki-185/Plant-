@@ -32,7 +32,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image,caption='Uploaded File',use_column_width=True)
 
-sub = st.button('Tell me about the plant')
+sub = st.button('Tell me about this plant')
 
 input_prompt = """"You are an expert in botany.
 We will upload an image of a plant and you will have to describe the plant based on the uploaded plant image."""
