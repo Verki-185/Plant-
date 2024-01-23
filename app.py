@@ -35,8 +35,7 @@ if uploaded_file is not None:
 sub = st.button('Tell me about the plant')
 
 input_prompt = """"You are an expert in botany.
-We will upload an image of a plant and you will have to answer any
-question based on the uploaded plant image."""
+We will upload an image of a plant and you will have to describe the plant based on the uploaded plant image."""
 
 if sub:
     with st.spinner('Wait'):
